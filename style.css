@@ -8,10 +8,11 @@
 }
 
 body {
+
     justify-content: center;
     align-items: center;
-    background: url('image/sky-colour-background-image.jpg') no-repeat;
-    min-height: 100vh;
+    background: url('image/winter-bg.jpg') no-repeat;
+    height: 140vh;
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +22,6 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: rgb(124, 233, 255);
     top: 0;
     left: 0;
     width: 100%;
@@ -69,12 +69,12 @@ body {
     font-size: 18px;
     outline: none;
     background: transparent;
-    transition: 0.3s;
+    transition: 0.5s;
     margin-left: 20px;
-    height: 47px;
-    width: 120px;
-    border: 2px solid rgb(4, 211, 253);
-    border-radius: 5px;
+    height: 45px;
+    width: 110px;
+    border: 2px solid rgb(81, 136, 246);
+    border-radius: 15px;
 }
 
 .btn-login:hover {
