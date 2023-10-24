@@ -92,12 +92,39 @@ body {
     border: 5px solid skyblue;
     border-radius: 15px;
     box-shadow: 5px 5px 40px;
+
+    transition: height 0.4s ease;
     backdrop-filter: blur(10px);
+
+}
+
+.wrapper.active {
+    height: 450px;
 }
 
 .wrapper .login-form {
-    display: none;
+    /*display: none;*/
+
+    transition: transform .18s ease;
+    transform: translateX(0);
 }
+
+.wrapper.active .login-form {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrapper .signup-form {
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+
+.wrapper.active .signup-form {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
 
 .login-form {
     width: 70%;
