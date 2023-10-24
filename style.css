@@ -10,7 +10,7 @@
 body {
     justify-content: center;
     align-items: center;
-    background: url('image/winter-bg.jpg') no-repeat;
+    background: url('image/sky-colour-background-image.jpg') no-repeat;
     height: 95vh;
     background-size: cover;
     background-position: center;
@@ -116,12 +116,12 @@ body {
 
 .wrapper.active .login-form {
     transition: none;
-    transform: translateX(-360px);
+    transform: translateX(-405px);
 }
 
 .wrapper .signup-form {
     transition: none;
-    transform: translateX(360px);
+    transform: translateX(405px);
     position: absolute;
 }
 
