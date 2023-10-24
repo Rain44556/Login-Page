@@ -95,6 +95,10 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.wrapper .login-form {
+    display: none;
+}
+
 .login-form {
     width: 70%;
 }
@@ -115,7 +119,6 @@ body {
 .input-field label {
     color: rgb(7, 54, 54);
     bottom: 50%;
-
     transform: translateY(-50%);
     font-size: 15px;
     font-weight: 600;
@@ -170,7 +173,6 @@ body {
 }
 
 .btn-submit-login {
-    margin-top: 20px;
     width: 100%;
     height: 38px;
     color: black;
@@ -187,7 +189,7 @@ body {
     background-color: rgb(174, 228, 250);
 }
 
-.signup-form p {
+.create-account p {
     text-align: center;
     padding: 10px;
     font-size: 14px;
@@ -209,4 +211,9 @@ body {
     box-shadow: 1px 1px 2px 2px gray;
     cursor: pointer;
     background-color: rgb(174, 228, 250);
+}
+
+.signup-form h3 {
+    color: rgb(7, 54, 54);
+    text-align: center;
 }
